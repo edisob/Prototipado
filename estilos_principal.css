@@ -1,0 +1,81 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: #090011; /* Fondo oscuro como el inicio de sesión */
+    color: #fff; /* Texto blanco para contrastar */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%; /* Ancho similar al contenedor de inicio de sesión */
+    max-width: 600px; /* Ancho máximo similar */
+    padding: 40px; /* Padding similar */
+    box-sizing: border-box;
+    border-radius: 10px; /* Bordes redondeados como el inicio de sesión */
+    background-color: rgba(255, 255, 255, 0.1); /* Fondo semitransparente claro */
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22); /* Sombra similar */
+}
+
+.bienvenida {
+    text-align: center;
+}
+
+.bienvenida h1 {
+    font-size: 3.5em; /* Texto grande y muy llamativo */
+    color: #ffffff; /* Color акцентный del inicio de sesión */
+    margin-bottom: 40px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4); /* Sombra más marcada */
+    font-weight: bold; /* Hacerlo más fuerte */
+    letter-spacing: 1px; /* Espaciado entre letras para impacto */
+}
+
+.bienvenida button {
+    background-color: #000000; /* Otro color акцентный del inicio de sesión */
+    color: #fff;
+    font-size: 1.5em; /* Botón más grande */
+    padding: 15px 50px; /* Padding más generoso */
+    border: none;
+    border-radius: 20px; /* Bordes redondeados como los botones */
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* Sombra para el botón */
+}
+
+.bienvenida button:hover {
+    background-color: #FF4B2B; /* Cambiar al otro акцентный al pasar el ratón */
+    transform: scale(1.05); /* Ligeramente más grande al pasar el ratón */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    .bienvenida h1 {
+        font-size: 2.8em;
+        margin-bottom: 30px;
+    }
+
+    .bienvenida button {
+        font-size: 1.2em;
+        padding: 12px 40px;
+    }
+}
+
+@media (max-width: 400px) {
+    .bienvenida h1 {
+        font-size: 2.2em;
+    }
+
+    .bienvenida button {
+        font-size: 1em;
+        padding: 10px 30px;
+    }
+}

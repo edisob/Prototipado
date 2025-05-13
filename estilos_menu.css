@@ -1,0 +1,74 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background: #090011;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.menu-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+                0 10px 10px rgba(0,0,0,0.22);
+    padding: 40px;
+    text-align: center;
+    width: 90%;
+    max-width: 400px;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5em;
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+.menu-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.menu-list li {
+    margin-bottom: 20px;
+}
+
+.menu-list li a {
+    display: block;
+    background-color: #000000;
+    color: #fff;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+.menu-list li a:hover {
+    background-color: #FF4B2B;
+    transform: scale(1.05);
+}
+
+#volver-inicio {
+    background-color: transparent;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    font-size: 1em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 20px;
+    cursor: pointer;
+    margin-top: 30px;
+    transition: background-color 0.3s ease;
+}
+
+#volver-inicio:hover {
+    background-color: #FF4B2B;
+    border-color: #FF4B2B;
+}

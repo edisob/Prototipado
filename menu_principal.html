@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú Principal</title>
+    <link rel="stylesheet" href="estilos_menu.css">
+</head>
+<body>
+    <div class="menu-container">
+        <h1>Menú Principal</h1>
+        <ul class="menu-list">
+            <li><a href="#">Calculadora de consumo</a></li>
+            <li><a href="#">Sonidos de recordatorios</a></li>
+            <li><a href="#">Configura tus horarios</a></li>
+            <li><a href="#">Controla tu hidratación</a></li>
+        </ul>
+        <button id="volver-inicio">Volver</button>
+    </div>
+
+    <script>
+        document.getElementById('volver-inicio').addEventListener('click', () => {
+            window.location.href = "index.html";
+        });
+    </script>
+</body>
+</html>

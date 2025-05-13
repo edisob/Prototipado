@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Principal</title>
+    <link rel="stylesheet" href="/login y register/estilos_principal.css">
+</head>
+<body>
+    <main>
+        <section class="bienvenida">
+            <h1>¡Toma el control de tu salud!</h1>
+            <button id="empezar-button">Empezar</button>
+        </section>
+    </main>
+
+    <script>
+        document.getElementById('empezar-button').addEventListener('click', () => {
+            window.location.href = "menu_principal.html";
+        });
+    </script>
+</body>
+</html>
